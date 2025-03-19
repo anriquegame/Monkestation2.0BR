@@ -23,9 +23,6 @@
 
 /// Xeno heads
 
-/datum/preference/choiced/xenohead/apply_to_human(mob/living/carbon/human/target, value)
-	target.dna.features["xenohead"] = value
-
 /datum/preference/choiced/xenohead
 	savefile_key = "feature_xenohead"
 	savefile_identifier = PREFERENCE_CHARACTER
@@ -47,6 +44,8 @@
 /datum/preference/toggle/xenohead
 	savefile_key = "xenohead_toggle"
 	relevant_mutant_bodypart = "xenohead"
+
+
 
 /datum/preference/tri_color/xenohead
 	category = PREFERENCE_CATEGORY_SECONDARY_FEATURES
