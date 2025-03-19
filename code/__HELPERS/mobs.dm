@@ -140,8 +140,6 @@
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/tails/avian, GLOB.tails_list_avian)
 	if(!length(GLOB.avian_ears_list))
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/plumage, GLOB.avian_ears_list)
-	if(!length(GLOB.xeno_heads_list))
-		init_sprite_accessory_subtypes(/datum/sprite_accessory/xenohead, GLOB.xeno_heads_list)
 //Monkestation Addition End
 	if(!length(GLOB.xeno_heads_list))
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/xenohead, GLOB.xeno_heads_list)
